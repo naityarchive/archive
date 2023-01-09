@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Slow Updates</title>
+    <style>
+        body {
+            background: black;
+            margin: 0px;
+        }
+        div {
+            margin: 0px;
+        }
+        h1 {
+            color: #57648f;
+            margin: 0px;
+            margin-top: 10px;
+            margin-left: 15px;
+        }
+        p {
+            color: white;
+            margin: 0px;
+            margin-left: 15px;
+            margin-top: 2px;
+            font: normal 11pt Arial;
+        }
+        .main {
+            display: flex;
+            align-items: center;
+        }
+        div#new {
+            margin: 0px;
+            background: #141414;
+            width: 100%;
+            border-radius: 5px;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        li {
+            color: #8696a0;
+        }
+        p#oneapk {
+            color: #57648f;
+            margin-top: 10px;
+            font: normal 15pt Arial;
+        }
+        div#oneapkreg {
+            margin-top: 5px;
+        }
+        div#oneapkdown {
+            background: green;
+            margin: 15px;
+            height: 40px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+        }
+        div#divround {
+            height: 15px;
+            width: 15px;
+            background: #57648f;
+            border-radius: 50%;
+        }
+        .neworoldversion {
+            display: flex;
+            align-items: center;
+            margin-left: 15px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        p#neworoldversiontext {
+            font: normal 16pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Atualizações?</h1>
+    <p>
+        Sim brow, mais uma ideia inútil mas vai servir de aprendizado
+    </p>
+    <div class="neworoldversion">
+        <div id="divround"></div>
+        <p id="neworoldversiontext">
+            Novas versões
+        </p>
+    </div>
+    <div class="main">
+        <div id="new">
+            <p id="oneapk">
+                Versão: 2.22.22.75
+            </p>
+            <div id="oneapkreg">
+                <p>
+                    Registro de alterações
+                </p>
+            </div>
+            <div>
+                <ol>
+                    <li>Trocar cor dos balões de conversa
+                        <li>Entry completamente preta
+                        </ol>
+                    </div>
+                    <div id="oneapkdown" onclick="openLinkOneApk()">
+                        <p style="margin-left: 0px">
+                            Fazer download
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="neworoldversion">
+                <div id="divround"></div>
+                <p id="neworoldversiontext">
+                    Versões antigas
+                </p>
+            </div>
+            <div>
+             <p>Nada 😃👍(por enquanto)</p>
+            </div>
+            <script>
+                function openLinkOneApk() {
+                    window.alert('Calma brow, dps coloco o link')
+                }
+            </script>
+        </body>
+    </html>
